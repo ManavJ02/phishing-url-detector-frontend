@@ -1,0 +1,29 @@
+.card {
+    perspective: 1000px;
+  }
+
+  .card-inner {
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+
+  .card:hover .card-inner {
+    transform: rotateY(180deg);
+  }
+
+  .card-front,
+  .card-back {
+    backface-visibility: hidden;
+  }
+
+  .card-back {
+    transform: rotateY(180deg);
+  }
+
+  @media (max-width: 640px) {
+    .card {
+      width: 100%;
+      height: auto;
+      max-width: 300px;
+    }
+  }
