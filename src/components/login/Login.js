@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../../login.css";
 const Login = () => {
   return (
@@ -24,7 +25,7 @@ const Login = () => {
                     name="password"
                     class="flip-card__input"
                   />
-                  <button class="flip-card__btn">Let`s go!</button>
+                  <button class="flip-card__btn"><Link to={"/"}>Let's Go</Link></button>
                 </form>
               </div>
               <div class="flip-card__back">
