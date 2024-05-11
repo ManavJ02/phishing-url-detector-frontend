@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Summary from "../summary/Summary";
 function Head() {
   return (
-    <div className="hero min-h-screen bg-base-200">
+    <div className="hero min-h-screen bg-base-800">
       {/* hero-content  max-w-md */}
       <div className="hero-content text-center">
         <div className="max-w">
